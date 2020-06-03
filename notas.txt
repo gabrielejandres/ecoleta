@@ -72,3 +72,56 @@ show: exibir um único registro
 create: criar registro
 update: atualizar registro
 delete: deletar registro
+
+** ReactJS **
+
+Utilizando os arquivos index.tsx e index.html o conteúdo do app é carregado dentro da div root
+
+JSX: Escrever HTML dentro do JS/TS. Sintaxe de XML dentro do JavaScript.
+
+Componentes: Aplicação dividida em pequenos blocos que se repetem dentro da aplicação. Propriedades: São atributos do componente:
+
+import React from 'react';
+
+interface HeaderProps {
+    title: string;
+}
+
+const Header: React.FC<HeaderProps> = (props) => {
+    return (
+        <header>
+            <h1> { props.title } </h1>
+        </header>
+    );
+}
+
+export default Header; 
+
+Estado: No react existe o conceito de imutabilidade, então para refletir dentro do HTML as mudanças em uma variável, temos que utilizar o conceito de estado:
+
+const [ counter, setCounter ] = useState(0); // retorna um array [ valor do estado, função para atualizar o valor do estado ]
+
+  function handleButtonClick() {
+    setCounter(counter + 1);
+  }
+
+  return (
+      <div>
+        <Header title="Hello world"/>
+
+        <h1> { counter } </h1>
+        <button type="button" onClick={handleButtonClick}>Aumentar</button>
+      </div>
+  );
+
+/* Bibliotecas */
+npm install react-icons
+npm install react-router-dom
+
+Maps: npm install leaflet / npm install react-leaflet
+
+API de Estados e Cidades: utilizar o axios com o link da API do IBGE
+
+Integração nodejs e reactjs: npm install axios
+
+OBS: Sempre que criamos um estado para array ou objeto temos que informar manualmente o tipo da variável.
