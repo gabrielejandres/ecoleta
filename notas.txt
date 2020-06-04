@@ -125,3 +125,18 @@ API de Estados e Cidades: utilizar o axios com o link da API do IBGE
 Integração nodejs e reactjs: npm install axios
 
 OBS: Sempre que criamos um estado para array ou objeto temos que informar manualmente o tipo da variável.
+
+** React Native **
+npm install -g expo-cli : permite utilizar comandos expo no projeto
+expo init mobile
+cd mobile
+npm start
+
+* As tags HTML não são válidas em react native. Devem ser usados os componentes view e text do react native.
+* As estilizações são feitas utilizando a propriedade style dos componentes. 
+* As propriedades CSS são escritas com cammelCase. Exemplo: backgroundColor
+* Todos os elementos são display flex por padrão.
+
+Mapas: expo install react-native-maps
+Geolocalização: expo install expo-location
+Envio de e-mails: expo install expo-mail-composer
