@@ -1,0 +1,3 @@
+[submodule "ecoleta-mobile"]
+	path = ecoleta-mobile
+	url = https://github.com/gabrielejandres/ecoleta-mobile.git
