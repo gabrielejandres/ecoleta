@@ -7,7 +7,6 @@ import { errors } from 'celebrate';
 const app = express();
 
 app.use(cors());
-// para que o express entenda o corpo da requisição em formato JSON
 app.use(express.json());
 app.use(routes);
 
