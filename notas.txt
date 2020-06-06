@@ -73,6 +73,13 @@ create: criar registro
 update: atualizar registro
 delete: deletar registro
 
+/* Upload de imagens */
+npm install multer
+npm install @types/multer -D : se for com ts
+
+/* Validation */
+npm install celebrate
+
 ** ReactJS **
 
 Utilizando os arquivos index.tsx e index.html o conteúdo do app é carregado dentro da div root
@@ -117,6 +124,7 @@ const [ counter, setCounter ] = useState(0); // retorna um array [ valor do esta
 /* Bibliotecas */
 npm install react-icons
 npm install react-router-dom
+npm install react-dropzone: plugin para upload de imagens
 
 Maps: npm install leaflet / npm install react-leaflet
 

@@ -9,7 +9,9 @@ class ItemsController {
             return {
                 id: item.id,
                 title: item.title,
-                image_url: `http://192.168.1.68:3333/uploads/${item.image}`
+                image_url: `http://192.168.1.68:3333/uploads/${item.image}` 
+                /* o ip é o da máquina onde o mobile está sendo servido
+                para o front-end web utilizamos http://localhost:3333 */
             }
         });
     
