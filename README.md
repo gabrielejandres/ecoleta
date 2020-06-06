@@ -5,7 +5,7 @@
 
 <p align="center"> Aplicação desenvolvida durante a Next Level Week 1.0 da Rocketseat. </p>
 
-## O que é o ecoleta?
+## O que é o Ecoleta?
 
 O Ecoleta é um marketplace Web e Mobile para ajudar pessoas a encontrarem pontos de coleta para reciclagem em sua cidade.
 
@@ -41,7 +41,7 @@ npm install ou yarn install
 npm start ou yarn start
 ```
 
-### 4. Mobile
+### 4. Instalação - Mobile
 Primeiramente é necessário colocar o IP do computador no arquivo "src/services/api.ts". Em seguida:
 
 ```bash
